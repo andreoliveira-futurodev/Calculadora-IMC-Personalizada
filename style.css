@@ -1,0 +1,97 @@
+body {
+    background-image: url('digital-andre.png');
+    background-size:unset;      /* ajusta a imagem pra cobrir tudo */
+    background-position:right; /* centraliza a imagem */
+    background-repeat: no-repeat; /* evita que a imagem fique repetindo */
+    width: 600px;
+    height: 600px;
+  }
+  
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:rgb(251, 247, 247);
+  display:inline-flex;
+  justify-content:left;
+  align-items: center;
+  padding-left: 70px;
+  height: 100vh;
+}
+
+.container {
+  background-color: #e80a0a;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, input, button, p {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background-color: #031c36;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
+
+footer {
+    color: rgb(118, 114, 100);
+    text-align: center;
+}
+
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+
+footer {
+    display: center;
+    align-items: center;
+     
+}
+
+footer a {
+    display:inline-block;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+
+nav a:hover {
+    color:green;
+}
+
+.rodape {
+    position: fixed;         /* fixa no lugar */
+    bottom: 0;               /* encosta no rodapé */
+    left: 0;                 /* encosta à esquerda */
+    padding: 10px 80px;
+    background-color: transparent; /* pode colocar uma cor aqui se quiser */
+    color:rgb(118, 114, 100) ;             /* cor do texto */
+    font-size: 14px;
+    z-index: 1000;
+  }
+  
+
+  
